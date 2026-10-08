@@ -141,6 +141,7 @@ class _AioHttPretty:
         resp_kwargs = {
             'request_info': Mock(),
             'writer': Mock(),
+            'stream_writer': Mock(),
             'continue100': None,
             'timer': TimerNoop(),
             'traces': [],
